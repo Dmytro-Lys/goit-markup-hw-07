@@ -24,6 +24,15 @@
         <a class="header-logo-left" href="."
           >Web<span class="header-logo-right">Studio</span></a
         >
+        <button
+          class="mobile-menu-btn flex-center js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-icon" width="30px" height="19px">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
         <!--Navigation-->
         <nav class="navigation">
           <ul class="nav-ul">
@@ -122,7 +131,7 @@
       <!-- Section2 -->
       <section class="index-section-work section">
         <div class="container">
-          <h2 class="index-section-work-h2">What are we doing</h2>
+          <h2 class="index-h2 index-section-work-h2">What are we doing</h2>
           <ul class="index-section-work-ul section-flex">
             <li class="index-section-work-item">
               <img
@@ -151,7 +160,7 @@
       <!-- Section3 -->
       <section class="index-section-team section">
         <div class="container">
-          <h2 class="index-section-team-h2">Our Team</h2>
+          <h2 class="index-h2 index-section-team-h2">Our Team</h2>
           <ul class="index-section-team-cards section-flex">
             <li class="index-section-team-cards-item">
               <img
@@ -425,7 +434,7 @@
       <!-- Section4 -->
       <section class="index-section-customers section">
         <div class="container">
-          <h2 class="index-section-customers-h2">Customers</h2>
+          <h2 class="index-h2 index-section-customers-h2">Customers</h2>
           <ul class="index-section-customers-ul section-flex">
             <li class="index-section-customers-item">
               <a
@@ -697,7 +706,107 @@
         </form>
       </div>
     </div>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="modal-btn flex-center js-close-menu">
+        <svg class="modal-icon-close" width="8px" height="8px">
+          <use href="./images/icons.svg#icon-close-window-18dp"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu flex-column">
+        <li class="mobile-menu-item">
+          <a href="." class="index-h2 mobile-menu-link">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="portfolio.html" class="index-h2 mobile-menu-link"
+            >Portfolio</a
+          >
+        </li>
+        <li class="mobile-menu-item">
+          <a href="" class="index-h2 mobile-menu-link contacts-tel">Contacts</a>
+        </li>
+      </ul>
+      <!-- contacts -->
+      <ul class="mobile-contacts flex-column">
+        <li>
+          <a
+            class="mobile-menu-link index-h2 contacts-tel"
+            href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li>
+          <a
+            class="mobile-menu-link index-h3 contacts-mail"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <!-- social links -->
+      <ul class="mobile-menu-social-ul">
+        <li class="footer-social-item">
+          <a
+            class="mobile-menu-social-links social-links flex-center"
+            href="https://instagram.com/"
+            aria-label="Instagram link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="footer-social-icon">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="mobile-menu-social-links social-links flex-center"
+            href="https://twitter.com/"
+            aria-label="Twitter link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="footer-social-icon">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="mobile-menu-social-links social-links flex-center"
+            href="https://facebook.com/"
+            aria-label="Facebook link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="footer-social-icon">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="mobile-menu-social-links social-links flex-center"
+            href="https://linkedin.com/"
+            aria-label="Linkedin link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="footer-social-icon">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

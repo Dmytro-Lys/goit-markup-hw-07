@@ -42,6 +42,21 @@ h3,
 p {
   margin: 0;
 }
+.index-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--col-navy-blue);
+}
+.index-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  color: var(--col-navy-blue);
+}
 /* ul flex */
 ul {
   margin: 0;
@@ -276,11 +291,6 @@ img {
 }
 /* index section2 work */
 .index-section-work-h2 {
-  font-size: 36px;
-  line-height: calc(40 / 36);
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--col-navy-blue);
   margin-bottom: 72px;
 }
 .index-section-work-ul {
@@ -303,10 +313,6 @@ img {
   background-color: var(--col-cloud);
 }
 .index-section-team-h2 {
-  font-size: 36px;
-  line-height: calc(40 / 36);
-  text-align: center;
-  text-transform: capitalize;
   margin-bottom: 72px;
 }
 .index-section-team-cards {
@@ -382,11 +388,6 @@ img {
   height: 88px;
 }
 .index-section-customers-h2 {
-  font-size: 36px;
-  line-height: calc(40 / 36);
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--col-navy-blue);
   margin-bottom: 72px;
 }
 .index-section-customers-link {
@@ -728,6 +729,65 @@ img {
 }
 .modal-agree-pr-policy {
   color: var(--col-iris);
+}
+/* mobile menu */
+.mobile-menu-btn {
+  display: block;
+  padding: 0;
+  width: 30px;
+  height: 19px;
+  border: none;
+  background-color: var(--col-white);
+  cursor: pointer;
+}
+.mobile-menu-icon {
+  stroke: var(--col-black);
+}
+.menu-container {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 428px;
+  height: 796px;
+  padding: 80px 32px 40px 40px;
+  background-color: var(--col-white);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform var(--trans-hv);
+}
+.menu-container.is-open {
+  transform: translateX(0);
+}
+.mobile-menu {
+  list-style: none;
+  row-gap: 40px;
+  margin-bottom: 284px;
+}
+
+.mobile-menu-link {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+}
+.mobile-contacts {
+  row-gap: 40px;
+  margin-bottom: 48px;
+}
+.contacts-tel {
+  color: var(--col-ocean);
+}
+.mobile-menu-social-ul {
+  gap: 56px;
+}
+.mobile-menu-social-links {
+  background-color: var(--col-iris);
+  transition: background-color var(--trans-hv);
+}
+.mobile-menu-social-links:focus,
+.mobile-menu-social-links:hover {
+  background-color: var(--col-ocean);
 }
 /* portfolio */
 /* main */
