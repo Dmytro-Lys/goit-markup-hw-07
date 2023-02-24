@@ -24,15 +24,6 @@
         <a class="header-logo-left" href="."
           >Web<span class="header-logo-right">Studio</span></a
         >
-        <button
-          class="mobile-menu-btn flex-center js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg class="mobile-menu-icon" width="30px" height="19px">
-            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-          </svg>
-        </button>
         <!--Navigation-->
         <nav class="navigation">
           <ul class="nav-ul">
@@ -60,6 +51,17 @@
             </li>
           </ul>
         </address>
+        <!-- mobile menu button -->
+        <button
+          type="button"
+          class="mobile-menu-btn flex-center js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-icon" width="30px" height="19px">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -76,14 +78,14 @@
       <section class="index-section-strategy section">
         <div class="container">
           <h2 class="visually-hidden">Our operating principles</h2>
-          <ul class="index-section-strategy-ul section-flex">
+          <ul class="index-section-strategy-ul flex-wrap">
             <li class="index-section-strategy-item flex-column">
               <div class="index-section-strategy-icon-bg flex-center">
                 <svg class="index-section-strategy-icon">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="index-section-strategy-h3">Strategy</h3>
+              <h3 class="index-h3">Strategy</h3>
               <p class="index-section-strategy-p">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -95,7 +97,7 @@
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="index-section-strategy-h3">Punctuality</h3>
+              <h3 class="index-h3">Punctuality</h3>
               <p class="index-section-strategy-p">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -107,7 +109,7 @@
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="index-section-strategy-h3">Diligence</h3>
+              <h3 class="index-h3">Diligence</h3>
               <p class="index-section-strategy-p">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -119,7 +121,7 @@
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="index-section-strategy-h3">Technologies</h3>
+              <h3 class="index-h3">Technologies</h3>
               <p class="index-section-strategy-p">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -132,7 +134,7 @@
       <section class="index-section-work section">
         <div class="container">
           <h2 class="index-h2 index-section-work-h2">What are we doing</h2>
-          <ul class="index-section-work-ul section-flex">
+          <ul class="index-section-work-ul flex-wrap">
             <li class="index-section-work-item">
               <img
                 class="index-section-work-img-work"
@@ -161,7 +163,7 @@
       <section class="index-section-team section">
         <div class="container">
           <h2 class="index-h2 index-section-team-h2">Our Team</h2>
-          <ul class="index-section-team-cards section-flex">
+          <ul class="index-section-team-cards flex-wrap">
             <li class="index-section-team-cards-item">
               <img
                 class="index-section-team-cards-img"
@@ -169,7 +171,9 @@
                 alt="Product Designer"
               />
               <div class="index-section-team-cards-text flex-column">
-                <h3 class="index-section-team-cards-h3">Mark Guerrero</h3>
+                <h3 class="index-h3 index-section-team-cards-h3">
+                  Mark Guerrero
+                </h3>
                 <p class="index-section-team-cards-p">Product Designer</p>
 
                 <!-- social links -->
@@ -236,7 +240,7 @@
                 alt="Frontend Developer"
               />
               <div class="index-section-team-cards-text flex-column">
-                <h3 class="index-section-team-cards-h3">Tom Ford</h3>
+                <h3 class="index-h3 index-section-team-cards-h3">Tom Ford</h3>
                 <p class="index-section-team-cards-p">Frontend Developer</p>
 
                 <!-- social links -->
@@ -303,7 +307,9 @@
                 alt="Marketing"
               />
               <div class="index-section-team-cards-text flex-column">
-                <h3 class="index-section-team-cards-h3">Camila Garcia</h3>
+                <h3 class="index-h3 index-section-team-cards-h3">
+                  Camila Garcia
+                </h3>
                 <p class="index-section-team-cards-p">Marketing</p>
                 <!-- social links -->
                 <ul class="index-section-team-cards-links section-flex">
@@ -369,7 +375,9 @@
                 alt="UI Designer"
               />
               <div class="index-section-team-cards-text flex-column">
-                <h3 class="index-section-team-cards-h3">Daniel Wilson</h3>
+                <h3 class="index-h3 index-section-team-cards-h3">
+                  Daniel Wilson
+                </h3>
                 <p class="index-section-team-cards-p">UI Designer</p>
                 <!-- social links -->
                 <ul class="index-section-team-cards-links section-flex">
@@ -435,7 +443,7 @@
       <section class="index-section-customers section">
         <div class="container">
           <h2 class="index-h2 index-section-customers-h2">Customers</h2>
-          <ul class="index-section-customers-ul section-flex">
+          <ul class="index-section-customers-ul flex-wrap">
             <li class="index-section-customers-item">
               <a
                 href=""
@@ -737,9 +745,7 @@
           >
         </li>
         <li>
-          <a
-            class="mobile-menu-link index-h3 contacts-mail"
-            href="mailto:info@devstudio.com"
+          <a class="index-h3 contacts-mail" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
