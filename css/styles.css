@@ -301,7 +301,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/index/hero/img-hero-bg.jpg);
+    url(../images/index/hero/Dark-bg-mob@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -310,9 +310,64 @@ img {
   margin-right: auto;
   padding: 112px 0px;
 }
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .index-section-hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/index/hero/Dark-bg-mob@2x.jpg);
+  }
+}
+@media screen and (min-width: 480px) {
+  .index-section-hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/index/hero/Dark-bg-tab@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .index-section-hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/index/hero/Dark-bg-tab@2x.jpg);
+    }
+  }
+}
 @media screen and (min-width: 768px) {
   .index-section-hero {
     padding-bottom: 108px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/index/hero/Dark-bg-desk@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .index-section-hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/index/hero/Dark-bg-desk@2x.jpg);
+    }
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1109,6 +1164,11 @@ img {
   overflow: hidden;
   width: 100%;
   height: 280px;
+}
+@media screen and (min-width: 768px) {
+  .portfolio-hero-a-first {
+    height: 300px;
+  }
 }
 .portfolio-hero-a-bg {
   display: block;
