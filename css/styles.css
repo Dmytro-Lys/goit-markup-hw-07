@@ -26,7 +26,6 @@
   --col-text-placeholder: rgba(117, 117, 117, 0.5);
   --col-navy-blue-shadow1: rgba(46, 47, 66, 0.08);
   --col-navy-blue-shadow2: rgba(46, 47, 66, 0.16);
-  --cont-max-width: 1440px;
   --r-gap: 48px;
   --c-gap: 24px;
   --items: 3;
@@ -305,7 +304,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: var(--cont-max-width);
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 112px 0px;
@@ -513,6 +512,8 @@ img {
   border: 1px solid var(--col-cornflower);
 }
 .index-section-work-img {
+  width: 360px;
+  height: 300px;
 }
 /* index section3 team */
 .index-section-team {
