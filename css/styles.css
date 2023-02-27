@@ -1234,9 +1234,6 @@ img {
   justify-content: center;
   gap: 8px;
 }
-.portfolio-hero-h2 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: calc(24 / 20);
-  color: var(--col-navy-blue);
+.portfolio-hero-p {
+  color: var(--col-slate);
 }
