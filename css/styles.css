@@ -375,7 +375,7 @@ img {
 }
 
 .index-hero-h1 {
-  width: 320px;
+  max-width: 320px;
   color: var(--col-white);
   text-align: center;
   font-size: 36px;
@@ -1095,7 +1095,7 @@ img {
 .portfolio-hero-btns {
   --c-gap: 24px;
   --r-gap: 16px;
-  padding-right: 40px;
+  padding-right: 20px;
   margin-bottom: 48px;
 }
 @media screen and (min-width: 768px) {
@@ -1139,7 +1139,6 @@ img {
 }
 
 .portfolio-hero-ul {
-  /* justify-content: center; */
   --r-gap: 48px;
   --items: 1;
 }
