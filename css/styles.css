@@ -766,7 +766,7 @@ img {
   padding: 8px 16px;
   outline: transparent;
   color: var(--col-white);
-  width: 100vw;
+  width: calc(100vw - 30px);
   max-width: 396px;
   height: 40px;
   transition: border var(--trans-hv);
